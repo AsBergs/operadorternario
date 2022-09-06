@@ -1,0 +1,18 @@
+<script>
+    //Problema: Maioridade
+    //Leia a idade de uma pessoa e informe se ela já chegou à maioridade.Se ela ainda não chegou, informe quantos anos faltam para a maioridade.
+
+const idade = Number(prompt("Qual a sua idade?:"))
+let resultadoNaTela
+    //Processamento
+
+
+
+(idade >= 18) ? resultadoNaTela = "Você já é maior de idade!" 
+:  resultadoNaTela = `Ainda falta ${qtdanosfaltam} ano(s) para você atingir a maioridade`;
+
+const qtdanosfaltam = 18 - idade
+
+    //Saída
+    document.write(resultadoNaTela)
+</script>
